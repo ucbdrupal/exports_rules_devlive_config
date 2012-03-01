@@ -3,7 +3,7 @@
     "PLUGIN" : "reaction rule",
     "TAGS" : [ "pantheon" ],
     "REQUIRES" : [ "rules", "php" ],
-    "ON" : [ "user_view" ],
+    "ON" : [ "cron" ],
     "IF" : [
       { "OR" : [
           { "text_matches" : {
